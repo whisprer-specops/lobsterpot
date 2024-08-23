@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+scapy
+requests
+kafka-python
+sympy
+schedule
+psutil
+OTXv2
+dotenv
