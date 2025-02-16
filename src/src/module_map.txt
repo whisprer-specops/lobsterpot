@@ -1,0 +1,53 @@
+lobsterpot/
+├── Cargo.toml
+└── src/
+    ├── main.rs           # Main entry point
+    ├── database/         # Database functionality
+    │   ├── mod.rs
+    │   ├── models.rs     # Database models
+    │   ├── migrations.rs # Database migrations
+    │   └── threat_db.rs  # Threat database implementation
+    │
+    ├── messaging/        # Kafka messaging system
+    │   ├── mod.rs
+    │   ├── config.rs     # Kafka configuration
+    │   ├── consumer.rs   # Message consumer
+    │   ├── messages.rs   # Message types/models
+    │   └── producer.rs   # Message producer
+    │
+    ├── ml/              # Machine learning components
+    │   ├── mod.rs
+    │   ├── isolation_forest.rs
+    │   └── ganglion/     # Neural network components
+    │       ├── mod.rs
+    │       ├── network.rs
+    │       ├── layers.rs
+    │       ├── cellular.rs
+    │       └── trainer.rs
+    │
+    ├── network/         # Network monitoring
+    │   ├── mod.rs 
+    │   └── monitor.rs   # Network monitoring implementation
+    │
+    ├── healing/         # Self-healing components
+    │   ├── mod.rs
+    │   ├── monitor.rs
+    │   ├── component.rs
+    │   └── errors.rs
+    │
+    ├── logging/         # Logging system
+    │   ├── mod.rs
+    │   ├── logger.rs
+    │   ├── analyzer.rs
+    │   ├── models.rs
+    │   └── database.rs
+    │
+    ├── password/        # Password utilities
+    │   ├── mod.rs
+    │   ├── cracker.rs
+    │   ├── mutations.rs
+    │   └── sequences.rs
+    │
+    └── threat/          # Threat detection
+        ├── mod.rs
+        └── detector.rs
