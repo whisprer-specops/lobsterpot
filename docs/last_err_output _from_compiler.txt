@@ -1,0 +1,277 @@
+
+warning: build failed, waiting for other jobs to finish...
+ rust  cargo clean
+error: duplicate key `sqlx` in table `dependencies`
+  --> Cargo.toml:22:1
+   |
+22 | sqlx = { version = "0.7", features = ["runtime-tokio-native-tls", "sqlite", "chrono", "json"] }
+   | ^
+   |
+ rust  cargo clean
+     Removed 1245 files, 768.3MiB total
+ rust  cargo build
+    Updating crates.io index
+     Locking 13 packages to latest compatible versions
+      Adding bindgen v0.71.1
+      Adding cexpr v0.6.0
+      Adding clang-sys v1.8.1
+      Adding libloading v0.8.7
+ Downgrading libsqlite3-sys v0.27.0 -> v0.26.0 (available: v0.33.0)
+      Adding rustc-hash v2.1.1
+
+
+   Compiling multiversion v0.7.4
+   Compiling cexpr v0.6.0
+   Compiling tracing v0.1.41
+   Compiling icu_normalizer v2.0.0
+   Compiling hashbrown v0.14.5
+   Compiling icu_properties v2.0.0
+warning: bzip2-sys@0.1.13+1.0.8: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\4906483491974153610detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\15170375532508364515detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-blocksort.o" "-c" "bzip2-1.0.8/blocksort.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\12624456718993645880detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-huffman.o" "-c" "bzip2-1.0.8/huffman.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\11791076352408128734detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-crctable.o" "-c" "bzip2-1.0.8/crctable.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (statuscode exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\8188739929832157131detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-randtable.o" "-c" "bzip2-1.0.8/randtable.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\12366028096741487497detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-compress.o" "-c" "bzip2-1.0.8/compress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (statuscode exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\13874209521102443062detect_compiler_family.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-decompress.o" "-c" "bzip2-1.0.8/decompress.c"
+warning: bzip2-sys@0.1.13+1.0.8: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+error: failed to run custom build command for `bzip2-sys v0.1.13+1.0.8`
+
+Caused by:
+  process didn't exit successfully: `D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\bzip2-sys-6d60c289b26ef99d\build-script-build` (exit code: 1)
+  --- stdout
+  OPT_LEVEL = Some(0)
+  TARGET = Some(x86_64-pc-windows-gnu)
+  HOST = Some(x86_64-pc-windows-gnu)
+  cargo:rerun-if-env-changed=CC_x86_64-pc-windows-gnu
+  CC_x86_64-pc-windows-gnu = None
+  cargo:rerun-if-env-changed=CC_x86_64_pc_windows_gnu
+  CC_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\4906483491974153610detect_compiler_family.c"
+  RUSTC_WRAPPER = None
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  DEBUG = Some(true)
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+  CFLAGS_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+  CFLAGS_x86_64-pc-windows-gnu = None
+  CARGO_ENCODED_RUSTFLAGS = Some(-Ctarget-feature=+crt-static)
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\15170375532508364515detect_compiler_family.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-blocksort.o" "-c" "bzip2-1.0.8/blocksort.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\12624456718993645880detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-huffman.o" "-c" "bzip2-1.0.8/huffman.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\11791076352408128734detect_compiler_family.c"
+
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-compress.o" "-c" "bzip2-1.0.8/compress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\13874209521102443062detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-decompress.o" "-c" "bzip2-1.0.8/decompress.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+
+  --- stderr
+
+
+  error occurred in cc-rs: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-gdwarf-2" "-fno-omit-frame-pointer" "-m64" "-I" "bzip2-1.0.8" "-D_WIN32" "-DBZ_EXPORT" "-D_FILE_OFFSET_BITS=64" "-DBZ_NO_STDIO" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\bzip2-sys-e4024b7afe975be6\\out\\lib\\a9dc8ba631b1466a-bzlib.o" "-c" "bzip2-1.0.8/bzlib.c"
+
+warning: build failed, waiting for other jobs to finish...
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\14459275260937001032detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\7217461901774712583detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\5690757292789938154detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9859360618274470289detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\4080158552437486037detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\44ff4c55aa9e5133-debug.o" "-c" "zstd/lib/common\\debug.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9996242257513351225detect_compiler_family.c"
+
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9792535626604442249detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\16532230981106175531detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o" "-c" "zstd/lib/compress\\zstd_compress_superblock.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\5266344792151776918detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\14003256693056349197detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
+
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9792535626604442249detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\16532230981106175531detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_sequences.o" "-c" "zstd/lib/compress\\zstd_compress_sequences.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_superblock.o" "-c" "zstd/lib/compress\\zstd_compress_superblock.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\5266344792151776918detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\14003256693056349197detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_double_fast.o" "-c" "zstd/lib/compress\\zstd_double_fast.c"
+
+
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\4244890560472414966detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\88f362f13b0528ed-huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\8602789234630596473detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3006623842548051235detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17285936761604689979detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\7498458125464235348detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\88f362f13b0528ed-zstd_ddict.o" "-c" "zstd/lib/decompress\\zstd_ddict.c"
+
+
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9422215303587629067detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17260000014064595770detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\8881168287790516828detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17655670468299553736detect_compiler_family.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\a6c81c75fc82913a-divsufsort.o" "-c" "zstd/lib/dictBuilder\\divsufsort.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\a6c81c75fc82913a-fastcover.o" "-c" "zstd/lib/dictBuilder\\fastcover.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\a6c81c75fc82913a-zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
+
+
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
+warning: zstd-sys@2.0.15+zstd.1.5.7: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
+error: failed to run custom build command for `zstd-sys v2.0.15+zstd.1.5.7`
+
+Caused by:
+  process didn't exit successfully: `D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\zstd-sys-857460fcb6adff38\build-script-build` (exit code: 1)
+  --- stdout
+  cargo:rerun-if-env-changed=ZSTD_SYS_USE_PKG_CONFIG
+  OUT_DIR = Some(D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\zstd-sys-9c6141fcf522e598\out)
+  OPT_LEVEL = Some(0)
+  TARGET = Some(x86_64-pc-windows-gnu)
+  HOST = Some(x86_64-pc-windows-gnu)
+  cargo:rerun-if-env-changed=CC_x86_64-pc-windows-gnu
+  CC_x86_64-pc-windows-gnu = None
+  cargo:rerun-if-env-changed=CC_x86_64_pc_windows_gnu
+  CC_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=HOST_CC
+  HOST_CC = None
+  cargo:rerun-if-env-changed=CC
+  CC = None
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\14459275260937001032detect_compiler_family.c"
+  RUSTC_WRAPPER = None
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  DEBUG = Some(false)
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+  CFLAGS_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+  CFLAGS_x86_64-pc-windows-gnu = None
+  CARGO_ENCODED_RUSTFLAGS = Some(-Ctarget-feature=+crt-static)
+  OUT_DIR = Some(D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\zstd-sys-9c6141fcf522e598\out)
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\7217461901774712583detect_compiler_family.c"
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  TARGET = Some(x86_64-pc-windows-gnu)
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+  HOST = Some(x86_64-pc-windows-gnu)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+  CFLAGS_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+  CFLAGS_x86_64-pc-windows-gnu = None
+  OUT_DIR = Some(D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\zstd-sys-9c6141fcf522e598\out)
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\5690757292789938154detect_compiler_family.c"
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  TARGET = Some(x86_64-pc-windows-gnu)
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+  HOST = Some(x86_64-pc-windows-gnu)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+  CFLAGS_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+  CFLAGS_x86_64-pc-windows-gnu = None
+  OUT_DIR = Some(D:\code\repos\github_desktop\lobsterpot\src\rust\target\debug\build\zstd-sys-9c6141fcf522e598\out)
+  cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9859360618274470289detect_compiler_family.c"
+  cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+  CRATE_CC_NO_DEFAULTS = None
+  TARGET = Some(x86_64-pc-windows-gnu)
+  CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+  HOST = Some(x86_64-pc-windows-gnu)
+  cargo:rerun-if-env-changed=CFLAGS
+  CFLAGS = None
+  cargo:rerun-if-env-changed=HOST_CFLAGS
+  HOST_CFLAGS = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_gnu
+  CFLAGS_x86_64_pc_windows_gnu = None
+  cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-gnu
+  CFLAGS_x86_64-pc-windows-gnu = None
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\4080158552437486037detect_compiler_family.c"
+
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-hist.o" "-c" "zstd/lib/compress\\hist.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\13428122906496836029detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-huf_compress.o" "-c" "zstd/lib/compress\\huf_compress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\14966347343749166526detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress.o" "-c" "zstd/lib/compress\\zstd_compress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\315333978406277202detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstd_compress_literals.o" "-c" "zstd/lib/compress\\zstd_compress_literals.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9792535626604442249detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\16532230981106175531detect_compiler_family.c"
+
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\fb80479a5fb81f6a-zstdmt_compress.o" "-c" "zstd/lib/compress\\zstdmt_compress.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\88f362f13b0528ed-huf_decompress.o" "-c" "zstd/lib/decompress\\huf_decompress.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\8602789234630596473detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3006623842548051235detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17285936761604689979detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\7498458125464235348detect_compiler_family.c"
+
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\88f362f13b0528ed-zstd_decompress_block.o" "-c" "zstd/lib/decompress\\zstd_decompress_block.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\a6c81c75fc82913a-cover.o" "-c" "zstd/lib/dictBuilder\\cover.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\1222319125992015596detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\9422215303587629067detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17260000014064595770detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\8881168287790516828detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\17655670468299553736detect_compiler_family.c"
+
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\a6c81c75fc82913a-zdict.o" "-c" "zstd/lib/dictBuilder\\zdict.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v01.o" "-c" "zstd/lib/legacy\\zstd_v01.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v02.o" "-c" "zstd/lib/legacy\\zstd_v02.c"cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\16746954776924400083detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\16247453961120459087detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\4148804634066651282detect_compiler_family.c"
+  cargo:warning=Compiler family detection failed due to error: ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-E" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\11510997462903576013detect_compiler_family.c"
+
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v05.o" "-c" "zstd/lib/legacy\\zstd_v05.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v06.o" "-c" "zstd/lib/legacy\\zstd_v06.c"
+  exit code: 1
+  cargo:warning=ToolExecError: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden" "-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
+
+  --- stderr
+
+
+  error occurred in cc-rs: command did not execute successfully (status code exit code: 1): "gcc.exe" "-O0" "-ffunction-sections" "-fdata-sections" "-m64" "-I" "zstd/lib/" "-I" "zstd/lib/common" "-I" "zstd/lib/legacy" "-fvisibility=hidden""-DZSTD_DISABLE_ASM=" "-DZSTD_LIB_DEPRECATED=0" "-DXXH_PRIVATE_API=" "-DZSTDLIB_VISIBILITY=" "-DZDICTLIB_VISIBILITY=" "-DZSTDERRORLIB_VISIBILITY=" "-DZSTD_LEGACY_SUPPORT=1" "-o" "D:\\code\\repos\\github_desktop\\lobsterpot\\src\\rust\\target\\debug\\build\\zstd-sys-9c6141fcf522e598\\out\\3f451b2306bc13c8-zstd_v07.o" "-c" "zstd/lib/legacy\\zstd_v07.c"
+
+
+ phine   rust   main ≡  ?3 -77                                                         in pwsh at 11:39:47
