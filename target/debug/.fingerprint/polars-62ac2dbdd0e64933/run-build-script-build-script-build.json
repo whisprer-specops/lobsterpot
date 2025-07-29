@@ -1,0 +1,1 @@
+{"rustc":12200708597866198150,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[2597253916522265657,"build_script_build",false,5970429886022626320]],"local":[{"RerunIfChanged":{"output":"debug\\build\\polars-62ac2dbdd0e64933\\output","paths":["build.rs"]}}],"rustflags":["-C","target-feature=+crt-static"],"config":0,"compile_kind":0}

@@ -1532,12 +1532,13 @@ checksum = "241eaef5fd12c88705a01fc1066c48c4b36e0dd4377dcdc7ec3942cea7a69956"
 
 [[package]]
 name = "lobsterpot"
-version = "0.1.0"
+version = "0.3.5"
 dependencies = [
  "anyhow",
  "async-trait",
  "bincode",
  "bytes",
+ "bzip2-sys",
  "cached",
  "chrono",
  "csv",
@@ -3014,15 +3015,15 @@ checksum = "8917285742e9f3e1683f0a9c4e6b57960b7314d0b08d30d1ecd426713ee2eee9"
 
 [[package]]
 name = "smartcore"
-version = "0.3.2"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c42ca1fcd851ada8834d3dfcd088850dc8c703bde50c2baccd89181b74dc3ade"
+checksum = "db8b735ef68af5b50325b68cedc63f54ff7a876c18cc3878954dabe36ecd94e1"
 dependencies = [
- "approx",
- "cfg-if",
+ "getrandom 0.2.16",
  "num",
  "num-traits",
  "rand",
+ "rand_distr",
 ]
 
 [[package]]
